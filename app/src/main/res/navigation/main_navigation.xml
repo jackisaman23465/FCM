@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/fragment_1">
+
+    <fragment android:id="@+id/fragment_1"
+        android:name="demo.jack.fcm.Fragment1"
+        tools:layout="@layout/fragment_1">
+        <deepLink android:autoVerify="true"
+            app:uri="demoJack://fragment1" />
+    </fragment>
+
+    <fragment android:id="@+id/fragment_2"
+        android:name="demo.jack.fcm.Fragment2"
+        tools:layout="@layout/fragment_2">
+        <deepLink android:autoVerify="true"
+            app:uri="demoJack://fragment2" />
+    </fragment>
+
+</navigation>

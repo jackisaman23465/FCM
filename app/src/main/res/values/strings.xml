@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FCM</string>
+    <string name="notification_channel_id">demo.jack.fcm</string>
+</resources>

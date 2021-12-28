@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "787246928179",
+    "project_id": "fcm-test-99a29",
+    "storage_bucket": "fcm-test-99a29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787246928179:android:dd149f2b53dcd41f6bae46",
+        "android_client_info": {
+          "package_name": "demo.jack.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787246928179-nqcivmi2eef7rmgo8b1q3nv69fksf110.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDRCxdHPKYxxHHbuK9LRCzcuDEq3NI1pU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787246928179-nqcivmi2eef7rmgo8b1q3nv69fksf110.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
